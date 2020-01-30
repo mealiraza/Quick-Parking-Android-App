@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SuppourtCenter"
+    android:orientation="vertical"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="350dp"
+                    android:src="@drawable/support"
+                    />
+
+                <EditText
+                    android:id="@+id/support_center_problemName"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/circle_input"
+                    android:hint="Problem Name"
+                    android:drawableLeft="@drawable/ic_warning_black_24dp"
+                    android:padding="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:maxLength="20"
+                    />
+
+                <EditText
+                    android:id="@+id/support_center_problemDiscription"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@drawable/circle_input"
+                    android:hint="Discribe your problem here"
+                    android:padding="20dp"
+                    />
+
+                <Button
+                    android:id="@+id/support_center_submit"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Submit"
+                    android:background="@drawable/circle_orange"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp"
+                    android:layout_marginTop="10dp"
+                    />
+            </LinearLayout>
+
+        </ScrollView>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

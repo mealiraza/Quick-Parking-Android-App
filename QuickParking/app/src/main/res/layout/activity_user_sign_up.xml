@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserSignUp"
+    android:orientation="vertical"
+
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        >
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="25dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="20dp"
+                >
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/animation_view"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center_horizontal"
+                    android:scaleType="centerCrop"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    app:lottie_rawRes="@raw/route" />
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    >
+
+                    <EditText
+                        android:id="@+id/signup_fn"
+                        android:layout_height="60dp"
+                        android:layout_width="170dp"
+                        android:hint="First Name"
+                        android:maxLength="10"
+                        android:inputType="textPersonName"
+                        />
+
+                    <EditText
+                        android:id="@+id/signup_ln"
+                        android:layout_height="60dp"
+                        android:layout_width="170dp"
+                        android:hint="Last Name"
+                        android:inputType="textPersonName"
+                        android:maxLength="10"
+                        />
+                </TableRow>
+
+                <EditText
+                    android:id="@+id/signup_email"
+                    android:layout_height="60dp"
+                    android:layout_width="match_parent"
+                    android:hint="Email"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:inputType="textEmailAddress"
+                    android:drawableRight="@drawable/ic_email_black_24dp"
+                    />
+                <EditText
+                    android:id="@+id/signup_mobile"
+                    android:layout_height="60dp"
+                    android:layout_width="match_parent"
+                    android:hint="Mobile Phone"
+                    android:layout_gravity="center_horizontal"
+                    android:drawableRight="@drawable/ic_phone_android_black_24dp"
+                    android:inputType="phone"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:maxLength="13"
+                    />
+                <EditText
+                    android:id="@+id/signup_password"
+                    android:layout_height="60dp"
+                    android:layout_width="match_parent"
+                    android:hint="Password"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:inputType="textPassword"
+                    android:drawableRight="@drawable/black_lock_24dp"
+                    />
+                <EditText
+                    android:id="@+id/signup_Address"
+                    android:layout_height="60dp"
+                    android:layout_width="match_parent"
+                    android:hint="Address"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:inputType="text"
+                    android:drawableRight="@drawable/ic_date_range_black_24dp"
+                    />
+                <Button
+                    android:id="@+id/signup_createAccount"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/circle_orange"
+                    android:text="Create Account"
+                    android:textColor="@android:color/white"
+                    />
+
+                <TextView
+                    android:id="@+id/signup_already_have_account"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="already have an account"
+                    android:textColor="@android:color/holo_red_light"
+                    />
+            </LinearLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

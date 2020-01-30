@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="25dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp"
+            >
+
+
+
+            <EditText
+                android:id="@+id/vehical_ownerName"
+                android:layout_height="60dp"
+                android:layout_width="match_parent"
+                android:hint="Owner Name"
+                android:maxLength="10"
+                android:inputType="textPersonName"
+                />
+
+
+            <EditText
+                android:id="@+id/vehical_ownerEmail"
+                android:layout_height="60dp"
+                android:layout_width="match_parent"
+                android:hint="Email"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:inputType="textEmailAddress"
+                android:drawableRight="@drawable/ic_email_black_24dp"
+                />
+            <EditText
+                android:id="@+id/vehical_ownerNumber"
+                android:layout_height="60dp"
+                android:layout_width="match_parent"
+                android:hint="Mobile Phone"
+                android:layout_gravity="center_horizontal"
+                android:drawableRight="@drawable/ic_phone_android_black_24dp"
+                android:inputType="phone"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:maxLength="13"
+                />
+            <EditText
+                android:id="@+id/vehical_Company"
+                android:layout_height="60dp"
+                android:layout_width="match_parent"
+                android:hint="Vhical Company"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:inputType="text"
+                android:drawableRight="@drawable/black_lock_24dp"
+                />
+
+            <EditText
+                android:id="@+id/vehical_Number"
+                android:layout_height="60dp"
+                android:layout_width="match_parent"
+                android:hint="Vhical Number"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:inputType="text"
+                android:drawableRight="@drawable/black_lock_24dp"
+                />
+            <EditText
+                android:id="@+id/vehical_address"
+                android:layout_height="60dp"
+                android:layout_width="match_parent"
+                android:hint="Address"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:inputType="text"
+                android:drawableRight="@drawable/ic_date_range_black_24dp"
+                />
+
+            <EditText
+                android:id="@+id/vehical_ownerID"
+                android:layout_height="60dp"
+                android:layout_width="match_parent"
+                android:hint="ID Card Number"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:inputType="text"
+                android:drawableRight="@drawable/ic_date_range_black_24dp"
+                />
+            <Button
+                android:id="@+id/vehical_submit"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/circle_orange"
+                android:text="Submit My Vehical"
+                android:textColor="@android:color/white"
+                />
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</ScrollView>
+
+
+</RelativeLayout>

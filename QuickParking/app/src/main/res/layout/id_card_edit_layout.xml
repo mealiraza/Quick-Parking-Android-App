@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    
+    <EditText
+        android:id="@+id/id_card_edit_input"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:maxLength="13"
+        android:enabled="false"
+        android:inputType="number"
+        android:hint="Enter New ID Here"
+        />
+    <Button
+        android:id="@+id/id_card_edit_chnagetBtn"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Change My ID"
+        />
+    <Button
+        android:id="@+id/id_card_edit_setBtn"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Set My ID"
+        />
+
+    
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/orderTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HUNDA"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/orderNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="BSF-5982"
+                />
+            <TextView
+                android:id="@+id/orderOwner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Ali Raza"
+                />
+            <Button
+                android:id="@+id/orderBackBtn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Get This Back"
+                android:background="@android:color/holo_green_dark"
+                android:textColor="@android:color/white"
+                />
+            <Button
+                android:background="@android:color/holo_red_dark"
+                android:textColor="@android:color/white"
+                android:id="@+id/orderQRGenerator"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="QR Code"
+                android:visibility="gone"
+                />
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

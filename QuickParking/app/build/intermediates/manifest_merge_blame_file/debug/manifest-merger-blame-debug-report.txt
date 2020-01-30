@@ -1,0 +1,287 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.crashtest"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the 'MyLocation' functionality.
+14    -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:10:5-79
+15-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:10:22-76
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:11:5-81
+16-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:11:22-78
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:12:5-81
+17-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:12:22-78
+18    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+18-->[com.google.android.libraries.places:places:1.1.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\0526b9c95bdef5ed573cc68859d95cc9\jetified-places-1.1.0\AndroidManifest.xml:10:5-76
+18-->[com.google.android.libraries.places:places:1.1.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\0526b9c95bdef5ed573cc68859d95cc9\jetified-places-1.1.0\AndroidManifest.xml:10:22-73
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->[com.google.android.libraries.places:places:1.1.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\0526b9c95bdef5ed573cc68859d95cc9\jetified-places-1.1.0\AndroidManifest.xml:11:5-67
+19-->[com.google.android.libraries.places:places:1.1.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\0526b9c95bdef5ed573cc68859d95cc9\jetified-places-1.1.0\AndroidManifest.xml:11:22-64
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[com.google.firebase:firebase-storage:16.0.4] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\00d01470bf927e49ba8785082d34ad38\jetified-firebase-storage-16.0.4\AndroidManifest.xml:23:5-79
+20-->[com.google.firebase:firebase-storage:16.0.4] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\00d01470bf927e49ba8785082d34ad38\jetified-firebase-storage-16.0.4\AndroidManifest.xml:23:22-76
+21
+22    <uses-feature
+22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\d8715e7089157b3af9f5de6e7e8325fe\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+23        android:glEsVersion="0x00020000"
+23-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\d8715e7089157b3af9f5de6e7e8325fe\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+24        android:required="true" />
+24-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\d8715e7089157b3af9f5de6e7e8325fe\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+25
+26    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+26-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\1907330d8aaca496080dc593b129bfeb\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:21:5-65
+26-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\1907330d8aaca496080dc593b129bfeb\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:21:22-62
+27    <uses-feature
+27-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\1907330d8aaca496080dc593b129bfeb\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:24:5-26:36
+28        android:name="android.hardware.camera"
+28-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\1907330d8aaca496080dc593b129bfeb\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:25:9-47
+29        android:required="false" />
+29-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\1907330d8aaca496080dc593b129bfeb\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:26:9-33
+30    <uses-feature
+30-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\1907330d8aaca496080dc593b129bfeb\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:27:5-29:36
+31        android:name="android.hardware.camera.front"
+31-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\1907330d8aaca496080dc593b129bfeb\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:28:9-53
+32        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+32-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\1907330d8aaca496080dc593b129bfeb\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:29:9-33
+33    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+34    <uses-feature
+34-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\1907330d8aaca496080dc593b129bfeb\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:32:5-34:36
+35        android:name="android.hardware.camera.autofocus"
+35-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\1907330d8aaca496080dc593b129bfeb\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:33:9-57
+36        android:required="false" />
+36-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\1907330d8aaca496080dc593b129bfeb\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:34:9-33
+37    <uses-feature
+37-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\1907330d8aaca496080dc593b129bfeb\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:35:5-37:36
+38        android:name="android.hardware.camera.flash"
+38-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\1907330d8aaca496080dc593b129bfeb\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:36:9-53
+39        android:required="false" />
+39-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\1907330d8aaca496080dc593b129bfeb\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:37:9-33
+40    <uses-feature
+40-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\1907330d8aaca496080dc593b129bfeb\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:38:5-40:36
+41        android:name="android.hardware.screen.landscape"
+41-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\1907330d8aaca496080dc593b129bfeb\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:39:9-57
+42        android:required="false" />
+42-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\1907330d8aaca496080dc593b129bfeb\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:40:9-33
+43    <uses-feature
+43-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\1907330d8aaca496080dc593b129bfeb\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:41:5-43:36
+44        android:name="android.hardware.wifi"
+44-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\1907330d8aaca496080dc593b129bfeb\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:42:9-45
+45        android:required="false" />
+45-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\1907330d8aaca496080dc593b129bfeb\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:43:9-33
+46
+47    <application
+47-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:14:5-60:19
+48        android:allowBackup="true"
+48-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:15:9-35
+49        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+49-->[androidx.core:core:1.0.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\fe55f783aaf5dc4b9ecd7615cd839454\core-1.0.0\AndroidManifest.xml:22:18-86
+50        android:debuggable="true"
+51        android:icon="@mipmap/ic_launcher"
+51-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:16:9-43
+52        android:label="@string/app_name"
+52-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:17:9-41
+53        android:roundIcon="@mipmap/ic_launcher_round"
+53-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:18:9-54
+54        android:supportsRtl="true"
+54-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:19:9-35
+55        android:theme="@style/AppTheme" >
+55-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:20:9-40
+56        <activity android:name="com.example.crashtest.GetOrderBack" />
+56-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:22:9-59
+56-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:22:19-47
+57        <!--
+58             The API key for Google Maps-based APIs is defined as a string resource.
+59             (See the file "res/values/google_maps_api.xml").
+60             Note that the API key is linked to the encryption key used to sign the APK.
+61             You need a different API key for each encryption key, including the release key that is used to
+62             sign the APK for publishing.
+63             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+64        -->
+65        <meta-data
+65-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:31:9-33:55
+66            android:name="com.google.android.geo.API_KEY"
+66-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:32:13-58
+67            android:value="@string/google_maps_key" />
+67-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:33:13-52
+68
+69        <activity
+69-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:35:9-37:69
+70            android:name="com.example.crashtest.DriverTracker"
+70-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:36:13-42
+71            android:label="@string/title_activity_driver_tracker" />
+71-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:37:13-66
+72        <activity android:name="com.example.crashtest.Notification" />
+72-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:38:9-50
+72-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:38:19-47
+73        <activity android:name="com.example.crashtest.SplashScreen" >
+73-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:39:9-45:20
+73-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:39:19-47
+74            <intent-filter>
+74-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:40:13-44:29
+75                <action android:name="android.intent.action.MAIN" />
+75-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:41:17-69
+75-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:41:25-66
+76
+77                <category android:name="android.intent.category.LAUNCHER" />
+77-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:43:17-77
+77-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:43:27-74
+78            </intent-filter>
+79        </activity>
+80        <activity android:name="com.example.crashtest.Feedback" />
+80-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:46:9-46
+80-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:46:19-43
+81        <activity android:name="com.example.crashtest.SuppourtCenter" />
+81-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:47:9-52
+81-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:47:19-49
+82        <activity android:name="com.example.crashtest.DriverOrder" />
+82-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:48:9-49
+82-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:48:19-46
+83        <activity android:name="com.example.crashtest.PersonalProfileSetting" />
+83-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:49:9-60
+83-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:49:19-57
+84        <activity
+84-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:50:9-52:66
+85            android:name="com.example.crashtest.MapSatting"
+85-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:51:13-39
+86            android:label="@string/title_activity_map_satting" />
+86-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:52:13-63
+87        <activity android:name="com.example.crashtest.PhoneVarification" />
+87-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:53:9-55
+87-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:53:19-52
+88        <activity
+88-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:54:9-57:59
+89            android:name="com.example.crashtest.ParkingSearching"
+89-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:55:13-45
+90            android:label="@string/title_activity_parking_searching"
+90-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:56:13-69
+91            android:theme="@style/AppTheme.NoActionBar" />
+91-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:57:13-56
+92        <activity android:name="com.example.crashtest.UserSignUp" />
+92-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:58:9-48
+92-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:58:19-45
+93        <activity android:name="com.example.crashtest.UserLogin" />
+93-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:59:9-47
+93-->G:\QuickParkingBackups\QuickParking\app\src\main\AndroidManifest.xml:59:19-44
+94        <!-- Autocomplete -->
+95        <activity
+95-->[com.google.android.libraries.places:places:1.1.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\0526b9c95bdef5ed573cc68859d95cc9\jetified-places-1.1.0\AndroidManifest.xml:16:9-23:20
+96            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+96-->[com.google.android.libraries.places:places:1.1.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\0526b9c95bdef5ed573cc68859d95cc9\jetified-places-1.1.0\AndroidManifest.xml:17:13-91
+97            android:exported="false"
+97-->[com.google.android.libraries.places:places:1.1.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\0526b9c95bdef5ed573cc68859d95cc9\jetified-places-1.1.0\AndroidManifest.xml:18:13-37
+98            android:hardwareAccelerated="true"
+98-->[com.google.android.libraries.places:places:1.1.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\0526b9c95bdef5ed573cc68859d95cc9\jetified-places-1.1.0\AndroidManifest.xml:19:13-47
+99            android:label="@string/places_autocomplete_label"
+99-->[com.google.android.libraries.places:places:1.1.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\0526b9c95bdef5ed573cc68859d95cc9\jetified-places-1.1.0\AndroidManifest.xml:20:13-62
+100            android:theme="@style/PlacesAutocompleteThemeOverlay"
+100-->[com.google.android.libraries.places:places:1.1.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\0526b9c95bdef5ed573cc68859d95cc9\jetified-places-1.1.0\AndroidManifest.xml:21:13-66
+101            android:windowSoftInputMode="stateAlwaysVisible|adjustPan" >
+101-->[com.google.android.libraries.places:places:1.1.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\0526b9c95bdef5ed573cc68859d95cc9\jetified-places-1.1.0\AndroidManifest.xml:22:13-71
+102        </activity>
+103        <activity
+103-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\2a5c043e2137a79c6a9087de0410c926\jetified-firebase-auth-16.0.5\AndroidManifest.xml:24:9-31:50
+104            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+104-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\2a5c043e2137a79c6a9087de0410c926\jetified-firebase-auth-16.0.5\AndroidManifest.xml:25:13-85
+105            android:excludeFromRecents="true"
+105-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\2a5c043e2137a79c6a9087de0410c926\jetified-firebase-auth-16.0.5\AndroidManifest.xml:26:13-46
+106            android:exported="true"
+106-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\2a5c043e2137a79c6a9087de0410c926\jetified-firebase-auth-16.0.5\AndroidManifest.xml:27:13-36
+107            android:launchMode="singleTask"
+107-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\2a5c043e2137a79c6a9087de0410c926\jetified-firebase-auth-16.0.5\AndroidManifest.xml:28:13-44
+108            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+108-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\2a5c043e2137a79c6a9087de0410c926\jetified-firebase-auth-16.0.5\AndroidManifest.xml:29:13-102
+109            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+109-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\2a5c043e2137a79c6a9087de0410c926\jetified-firebase-auth-16.0.5\AndroidManifest.xml:30:13-72
+110
+111        <service
+111-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\2a5c043e2137a79c6a9087de0410c926\jetified-firebase-auth-16.0.5\AndroidManifest.xml:33:9-39:19
+112            android:name="com.google.firebase.components.ComponentDiscoveryService"
+112-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\2a5c043e2137a79c6a9087de0410c926\jetified-firebase-auth-16.0.5\AndroidManifest.xml:34:13-84
+113            android:exported="false" >
+113-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\2a5c043e2137a79c6a9087de0410c926\jetified-firebase-auth-16.0.5\AndroidManifest.xml:35:13-37
+114            <meta-data
+114-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\2a5c043e2137a79c6a9087de0410c926\jetified-firebase-auth-16.0.5\AndroidManifest.xml:36:13-38:85
+115                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+115-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\2a5c043e2137a79c6a9087de0410c926\jetified-firebase-auth-16.0.5\AndroidManifest.xml:37:17-109
+116                android:value="com.google.firebase.components.ComponentRegistrar" />
+116-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\2a5c043e2137a79c6a9087de0410c926\jetified-firebase-auth-16.0.5\AndroidManifest.xml:38:17-82
+117            <meta-data
+117-->[com.google.firebase:firebase-firestore:17.1.2] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\3332ec2c3afc18dba1bfe33674ed8aa4\jetified-firebase-firestore-17.1.2\AndroidManifest.xml:15:13-17:85
+118                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+118-->[com.google.firebase:firebase-firestore:17.1.2] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\3332ec2c3afc18dba1bfe33674ed8aa4\jetified-firebase-firestore-17.1.2\AndroidManifest.xml:16:17-111
+119                android:value="com.google.firebase.components.ComponentRegistrar" />
+119-->[com.google.firebase:firebase-firestore:17.1.2] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\3332ec2c3afc18dba1bfe33674ed8aa4\jetified-firebase-firestore-17.1.2\AndroidManifest.xml:17:17-82
+120        </service> <!-- Needs to be explicitly declared on P+ -->
+121        <uses-library
+121-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\d8715e7089157b3af9f5de6e7e8325fe\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+122            android:name="org.apache.http.legacy"
+122-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\d8715e7089157b3af9f5de6e7e8325fe\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+123            android:required="false" />
+123-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\d8715e7089157b3af9f5de6e7e8325fe\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+124
+125        <activity
+125-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\1907330d8aaca496080dc593b129bfeb\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:46:9-52:63
+126            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+126-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\1907330d8aaca496080dc593b129bfeb\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:47:13-74
+127            android:clearTaskOnLaunch="true"
+127-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\1907330d8aaca496080dc593b129bfeb\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:48:13-45
+128            android:screenOrientation="sensorLandscape"
+128-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\1907330d8aaca496080dc593b129bfeb\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:49:13-56
+129            android:stateNotNeeded="true"
+129-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\1907330d8aaca496080dc593b129bfeb\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:50:13-42
+130            android:theme="@style/zxing_CaptureTheme"
+130-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\1907330d8aaca496080dc593b129bfeb\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:51:13-54
+131            android:windowSoftInputMode="stateAlwaysHidden" />
+131-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\1907330d8aaca496080dc593b129bfeb\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:52:13-60
+132        <activity
+132-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\b16d30cc502630617cd446cfb47118f3\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+133            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+133-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\b16d30cc502630617cd446cfb47118f3\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+134            android:exported="false"
+134-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\b16d30cc502630617cd446cfb47118f3\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+135            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+135-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\b16d30cc502630617cd446cfb47118f3\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+136
+137        <provider
+137-->[com.google.firebase:firebase-common:16.0.3] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\099c33c2f3cfb7fbf3085d6ddc899546\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+138            android:name="com.google.firebase.provider.FirebaseInitProvider"
+138-->[com.google.firebase:firebase-common:16.0.3] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\099c33c2f3cfb7fbf3085d6ddc899546\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+139            android:authorities="com.example.crashtest.firebaseinitprovider"
+139-->[com.google.firebase:firebase-common:16.0.3] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\099c33c2f3cfb7fbf3085d6ddc899546\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+140            android:exported="false"
+140-->[com.google.firebase:firebase-common:16.0.3] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\099c33c2f3cfb7fbf3085d6ddc899546\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+141            android:initOrder="100" />
+141-->[com.google.firebase:firebase-common:16.0.3] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\099c33c2f3cfb7fbf3085d6ddc899546\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+142
+143        <meta-data
+143-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\026fff4a694e780d6b2411b05b39e120\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+144            android:name="com.google.android.gms.version"
+144-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\026fff4a694e780d6b2411b05b39e120\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+145            android:value="@integer/google_play_services_version" />
+145-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\026fff4a694e780d6b2411b05b39e120\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+146
+147        <provider
+147-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\05f6e60cc62fdfca9c0886bebfeafec5\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+148            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+148-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\05f6e60cc62fdfca9c0886bebfeafec5\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+149            android:authorities="com.example.crashtest.lifecycle-process"
+149-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\05f6e60cc62fdfca9c0886bebfeafec5\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+150            android:exported="false"
+150-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\05f6e60cc62fdfca9c0886bebfeafec5\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+151            android:multiprocess="true" />
+151-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\MUHAMMAD BABAR ALI\.gradle\caches\transforms-2\files-2.1\05f6e60cc62fdfca9c0886bebfeafec5\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+152    </application>
+153
+154</manifest>

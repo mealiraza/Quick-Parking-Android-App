@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DriverOrder">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="5dp"
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            >
+
+
+            <LinearLayout
+                android:id="@+id/driverType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="80dp"
+                    android:layout_height="140dp"
+                    android:orientation="vertical"
+                    android:layout_marginRight="7dp"
+                    >
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/psv"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PSV"
+                        android:textSize="20sp"
+                        android:layout_gravity="center_horizontal"
+                        />
+                    <CheckBox
+                        android:id="@+id/psvBox"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="80dp"
+                    android:layout_height="140dp"
+                    android:orientation="vertical"
+                    >
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/ltv"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="LTV"
+                        android:textSize="20sp"
+                        android:layout_gravity="center_horizontal"
+                        />
+                    <CheckBox
+                        android:id="@+id/ltvBox"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="80dp"
+                    android:layout_height="140dp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="7dp"
+                    >
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/htv"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="HTV"
+                        android:textSize="20sp"
+                        android:layout_gravity="center_horizontal"
+                        />
+                    <CheckBox
+                        android:id="@+id/htvBox"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="80dp"
+                    android:layout_height="140dp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="7dp"
+                    >
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/bike"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="BIKE"
+                        android:textSize="20sp"
+                        android:layout_gravity="center_horizontal"
+                        />
+                    <CheckBox
+                        android:id="@+id/bikeBox"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Spinner
+                    android:id="@+id/parkingOption"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/driverType"
+
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+    <Button
+        android:id="@+id/driverOrderBtn"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Order"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/circle_orange"
+        android:layout_marginBottom="10dp"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+
+</RelativeLayout>

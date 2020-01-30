@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group >
+        <item
+            android:id="@+id/nav_orderDriver"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Order A Driver" />
+        <item
+            android:id="@+id/nav_getBack"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Get Order Back" />
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Notification" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Setting" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Logout" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/nav_support"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Get Support" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_menu_send"
+                android:title="feedback" />
+
+        </menu>
+    </item>
+
+</menu>

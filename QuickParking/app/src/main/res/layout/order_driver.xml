@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="250dp"
+                    android:src="@drawable/driver_seccond"
+                    android:layout_marginBottom="10dp"
+                    />
+
+                <EditText
+                    android:id="@+id/orderDriver_driverType"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/circle_input"
+                    android:hint="Driver Type"
+                    android:padding="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:maxLength="20"
+                    />
+
+                <EditText
+                    android:id="@+id/orderDriver_driverGender"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/circle_input"
+                    android:hint="Driver Gender"
+                    android:layout_marginBottom="10dp"
+                    android:padding="10dp"
+                    />
+                <EditText
+                    android:id="@+id/orderDriver_driverDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/circle_input"
+                    android:hint="Date"
+                    android:padding="10dp"
+                    android:layout_marginBottom="10dp"
+                    />
+                <EditText
+                    android:id="@+id/orderDriver_driverAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/circle_input"
+                    android:hint="Addresses"
+                    android:padding="10dp"
+                    />
+                <Button
+                    android:id="@+id/orderDriver_submit"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Submit"
+                    android:background="@drawable/circle_orange"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp"
+                    android:layout_marginTop="10dp"
+                    />
+            </LinearLayout>
+
+        </ScrollView>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

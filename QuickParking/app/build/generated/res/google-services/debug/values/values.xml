@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">109658684892-l8eteqhg2qrvuc8dlttknrj1vbcnj23b.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://quickparking-c5834.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">109658684892</string>
+    <string name="google_api_key" translatable="false">AIzaSyDwkRCO5b8xW1Veb12RKWcbKD9fzKYPr6c</string>
+    <string name="google_app_id" translatable="false">1:109658684892:android:ce2edb4dc61b632b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDwkRCO5b8xW1Veb12RKWcbKD9fzKYPr6c</string>
+    <string name="google_storage_bucket" translatable="false">quickparking-c5834.appspot.com</string>
+    <string name="project_id" translatable="false">quickparking-c5834</string>
+</resources>
